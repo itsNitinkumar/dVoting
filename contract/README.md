@@ -14,11 +14,20 @@ Move to this folder
 cd contract
 npm install
 ```
-start truffle in the terminal : `truffle develop`
+start truffle in the terminal :
+```bash
+truffle develop
+```
 
-Compile the contract: `compile`
+Compile the contract: 
+```bash
+compile
+```
 
-Migrate the contract: `migrate --reset`
+Migrate the contract: 
+```bash
+migrate --reset
+```
 
 Copy the `Voting.json` file from `build/contract/` folder to `client\src\contract`
 
