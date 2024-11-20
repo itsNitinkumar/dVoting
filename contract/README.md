@@ -10,8 +10,10 @@ this is the smart contract of the Decentralized Voting App
 
 Move to this folder
 
-<br>`cd contract<br>npm install`
-
+```bash
+cd contract
+npm install
+```
 start truffle in the terminal : `truffle develop`
 
 Compile the contract: `compile`
