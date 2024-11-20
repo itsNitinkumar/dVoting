@@ -9,7 +9,7 @@ this is the smart contract of the Decentralized Voting App
 ## Quick Start
 
 Move to this folder
-`cd contract
+`cd contract\n
 npm install`
 
 start truffle in the terminal : `truffle develop`
