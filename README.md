@@ -23,8 +23,8 @@ Ensure you have the following tools installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/Anas-github-acc/dVoting.git
+   cd dVoting
 
 
 This version includes instructions to guide users to follow the separate `README.md` files in the `contract` and `client` directories for detailed setup and running processes.
