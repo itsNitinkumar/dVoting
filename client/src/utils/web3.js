@@ -4,11 +4,10 @@ import VotingContract from "./Voting.json";
 class getWeb3 {
   // how to polymorphically define a constructor in JS
   constructor(provider) {
-    if (provider) {
-      // this.web3 = new Web3(provider);
+    if (!provider) {
       this.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545/"));
     } else {
-      this.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545/"));
+      this.web3 = new Web3(provider);
     }
   }
 
